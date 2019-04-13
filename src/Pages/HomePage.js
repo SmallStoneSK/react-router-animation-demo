@@ -33,6 +33,9 @@ export default class HomePage extends React.PureComponent {
 
 const styles = {
   container: {
+    position: 'absolute',
+    left: 0,
+    top: 0,
     width: '100vw',
     height: '100vh',
     padding: '0 20px',
