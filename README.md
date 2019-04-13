@@ -1,68 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 使用
 
-## Available Scripts
+```bash
+git clone https://github.com/SmallStoneSK/react-router-animation-demo.git
+cd react-router-animation-demo
+npm install
+npm start
+```
 
-In the project directory, you can run:
+## 注意事项
 
-### `npm start`
+1. 在手机模式下预览效果更加。
+2. 本项目一共有6个例子，每次运行某个例子时，请将其他例子的import语句注释掉，以避免可能存在的css覆盖。
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 预览
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### App1
 
-### `npm test`
+<div align="center">
+  <img src="./pics/app1.gif"/>
+</div>
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### App2
 
-### `npm run build`
+<div align="center">
+  <img src="./pics/app2.gif"/>
+</div>
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### App3
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+<div align="center">
+  <img src="./pics/app3.gif"/>
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### App4
 
-### `npm run eject`
+<div align="center">
+  <img src="./pics/app4.gif"/>
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### App5
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<div align="center">
+  <img src="./pics/app5.gif"/>
+</div>
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### App6
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<div align="center">
+  <img src="./pics/app6.gif"/>
+</div>
