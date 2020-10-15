@@ -5,7 +5,7 @@ import {
   Button
 } from 'antd';
 
-const LIST_DATA = new Array(5).fill(1);
+const LIST_DATA = new Array(15).fill(1);
 
 export default class ListPage extends React.PureComponent {
 
@@ -29,14 +29,14 @@ export default class ListPage extends React.PureComponent {
     return (
       <div style={styles.container}>
         <h1 style={styles.titleText}>This is ListPage</h1>
+        <div style={styles.btnGroup}>
+          <Button onClick={this.onBack}>return</Button>
+        </div>
         <List
           bordered
           dataSource={LIST_DATA}
           renderItem={this.renderListItem}
         />
-        <div style={styles.btnGroup}>
-          <Button onClick={this.onBack}>return</Button>
-        </div>
       </div>
     );
   }
@@ -44,11 +44,11 @@ export default class ListPage extends React.PureComponent {
 
 const styles = {
   container: {
-    position: 'absolute',
-    left: 0,
-    top: 0,
-    width: '100vw',
-    height: '100vh',
+    // position: 'absolute',
+    // left: 0,
+    // top: 0,
+    // width: '100vw',
+    // height: '100vh',
     padding: '0 20px',
     backgroundColor: '#9A4538'
   },
@@ -64,6 +64,6 @@ const styles = {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'center',
-    marginTop: 20
+    margin: '20px 20px'
   }
 }
